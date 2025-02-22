@@ -1,0 +1,4 @@
+1. Para iniciar Ngrok, desde una consola nueva se debe usar el comando ".\ngrok.exe http 3000" así se indica que se inicie por el puerto 3000 que es el elegido por el API.
+2. Una vez Ngrok esté corriendo, se abre una nueva consola, y desde ahí se pueden iniciar los archivos .js después de usar el comando "cd backend".
+3. Para introducir el enlace generado por Ngrok desde la prueba de Python, se debe copiar el enlace generado en la sección "Forwarding" de la consola en la que se ejecutó Ngrok.
+4. al final de este enlace, se debe poner "/ask" ya que así el API va a entender correctamente la ruta.
