@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    image: miapp:latest
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - HF_API_KEY=${HF_API_KEY}
